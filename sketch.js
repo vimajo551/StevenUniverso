@@ -18,15 +18,31 @@ var p17;
 var p18;
 var bg1;
 
-function preloaded(){
+function preload(){
   bgi = loadImage("bg.jpg")
   p1img = loadImage("../assets/personagens/Steven_Universo.png")
-}
+  p2img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p3img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p4img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p5img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p6img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p7img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p8img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p9img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p10img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p11img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p12img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p13img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p14img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p14img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p15img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
+  p16img = loadImage("../assets/personagens/Ruby_Left_Eye_by_King")
 
+
+}
 function setup() {
   createCanvas(windowWidth,windowHeight);
   p1 = createSprite(100,50,30,30);
-  p1.addImage(p1img)
   p2 = createSprite(100,50,30,30);
   p3 = createSprite(100,50,30,30);
   p4 = createSprite(100,50,30,30);
@@ -45,11 +61,12 @@ function setup() {
   p17 = createSprite(100,50,30,30);
   p18 = createSprite(100,50,30,30);
 
+  p1.addImage(p1img)
 }
 
 function draw() 
 {
-  background(30);
+  background("bgi");
 
   
 
